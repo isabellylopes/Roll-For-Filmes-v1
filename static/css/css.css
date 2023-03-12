@@ -1,0 +1,174 @@
+/* Estilos para telas grandes */
+@media (min-width: 601px) {
+
+
+
+
+body{
+    background-color: black;
+}
+.botao {
+    position: absolute; /* posiciona o botão de forma absoluta */
+    top: 40%; /* posiciona o topo do botão no centro vertical da tela */
+    left: 50%; /* posiciona o lado esquerdo do botão no centro horizontal da tela */
+    transform: translate(-50%, -50%); /* centraliza o botão completamente */
+    margin: 0; /* remove as margens padrão do botão */
+    color: white;
+}
+
+#btn-center{
+    position: absolute; /* posiciona o botão de forma absoluta */
+    top: 50%; /* posiciona o topo do botão no centro vertical da tela */
+    left: 50%; /* posiciona o lado esquerdo do botão no centro horizontal da tela */
+    transform: translate(-50%, -50%); /* centraliza o botão completamente */
+    margin: 0; /* remove as margens padrão do botão */
+    display: inline-block;
+    padding: 10px 10px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    background-color: red;
+    border-radius: 5px;
+
+}
+
+#btn-center:hover{
+    background-color: firebrick;
+}
+
+#resposta:not(:empty){
+    position: absolute; 
+    top: 75%; 
+    left: 50%; /* posiciona o lado esquerdo do botão no centro horizontal da tela */
+    transform: translate(-50%, -50%); /* centraliza o botão completamente */
+    margin: 0; /* remove as margens padrão do botão */
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;           
+}
+
+#edi{
+    position: absolute;
+    top: 18%; 
+    left: 50%; /* posiciona o lado esquerdo do botão no centro horizontal da tela */
+    transform: translate(-50%, -50%); /* centraliza o botão completamente */
+    margin: 0; /* remove as margens padrão do botão */
+    color: white;
+    font-size: 12px;
+
+}
+
+.desenvolvidoPor{
+    position: absolute;
+    top: 97%; 
+    left: 10%; 
+    transform: translate(-20%, -20%); 
+    margin: 0; 
+    color: #fff;
+    font-size: 12px;
+}
+
+#login{
+    position: absolute;
+    margin: 0;
+    transform: translate(-20%, -20%); 
+    top: 5%;
+    left: 90%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#login:hover{
+    background-color: firebrick;
+    cursor: pointer ;
+}
+
+#iframe-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: red;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+}
+
+@media (max-width: 600px) {
+
+    body{
+        background-color: black
+    }
+
+    .botao {
+        position: absolute; /* posiciona o botão de forma absoluta */
+        top: 70%; /* posiciona o topo do botão no centro vertical da tela */
+        left: 50%; /* posiciona o lado esquerdo do botão no centro horizontal da tela */
+        transform: translate(-50%, -50%); /* centraliza o botão completamente */
+        margin: 0; /* remove as margens padrão do botão */
+        color: white;
+    }
+
+    #btn-center{
+        position: absolute; /* posiciona o botão de forma absoluta */
+        top: 75%; /* posiciona o topo do botão no centro vertical da tela */
+        left: 50%; /* posiciona o lado esquerdo do botão no centro horizontal da tela */
+        transform: translate(-50%, -50%); /* centraliza o botão completamente */
+        margin: 0; /* remove as margens padrão do botão */
+        display: inline-block;
+        padding: 10px 10px;
+        border: 0;
+        cursor: pointer;
+        color: #fff;
+        background-color: red;
+        border-radius: 5px;
+    
+    }
+
+    #btn-center:hover{
+        background-color: firebrick;
+    }
+
+    #resposta:not(:empty){
+        position: absolute; 
+        top: 83%; 
+        left: 50%; /* posiciona o lado esquerdo do botão no centro horizontal da tela */
+        transform: translate(-50%, -50%); /* centraliza o botão completamente */
+        margin: 0; /* remove as margens padrão do botão */
+        color: white;
+        background-color: red;
+        padding: 10px;
+        border-radius: 5px;           
+    }
+
+    #edi{
+        position: absolute;
+        top: 16%; 
+        left: 50%; /* posiciona o lado esquerdo do botão no centro horizontal da tela */
+        transform: translate(-50%, -50%); /* centraliza o botão completamente */
+        margin: 0; /* remove as margens padrão do botão */
+        color: white;
+        font-size: 13px;
+    
+    }
+    
+    .desenvolvidoPor{
+        position: absolute;
+        top: 97%; 
+        left: 10%; 
+        transform: translate(-20%, -20%); 
+        margin: 0; 
+        color: #fff;
+        font-size: 12px;
+    }
+  }
