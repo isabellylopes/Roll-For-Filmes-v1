@@ -112,7 +112,7 @@ body{
 
     .botao {
         position: absolute; /* posiciona o botão de forma absoluta */
-        top: 70%; /* posiciona o topo do botão no centro vertical da tela */
+        top: 80%; /* posiciona o topo do botão no centro vertical da tela */
         left: 50%; /* posiciona o lado esquerdo do botão no centro horizontal da tela */
         transform: translate(-50%, -50%); /* centraliza o botão completamente */
         margin: 0; /* remove as margens padrão do botão */
@@ -122,7 +122,7 @@ body{
 
     #btn-center{
         position: absolute; /* posiciona o botão de forma absoluta */
-        top: 75%; /* posiciona o topo do botão no centro vertical da tela */
+        top: 85%; /* posiciona o topo do botão no centro vertical da tela */
         left: 50%; /* posiciona o lado esquerdo do botão no centro horizontal da tela */
         transform: translate(-50%, -50%); /* centraliza o botão completamente */
         margin: 0; /* remove as margens padrão do botão */
@@ -142,7 +142,7 @@ body{
 
     #resposta:not(:empty){
         position: absolute; 
-        top: 83%; 
+        top: 90%; 
         left: 50%; /* posiciona o lado esquerdo do botão no centro horizontal da tela */
         transform: translate(-50%, -50%); /* centraliza o botão completamente */
         margin: 0; /* remove as margens padrão do botão */
