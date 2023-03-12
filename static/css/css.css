@@ -142,7 +142,7 @@ body{
 
     #resposta:not(:empty){
         position: absolute; 
-        top: 100%; 
+        top: 110%; 
         left: 50%; /* posiciona o lado esquerdo do botão no centro horizontal da tela */
         transform: translate(-50%, -50%); /* centraliza o botão completamente */
         margin: 0; /* remove as margens padrão do botão */
