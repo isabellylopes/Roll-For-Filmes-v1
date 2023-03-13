@@ -50,6 +50,17 @@ body{
 
 #edi{
     position: absolute;
+    top: 21%; 
+    left: 50%; /* posiciona o lado esquerdo do botão no centro horizontal da tela */
+    transform: translate(-50%, -50%); /* centraliza o botão completamente */
+    margin: 0; /* remove as margens padrão do botão */
+    color: white;
+    font-size: 12px;
+
+}
+
+#info{
+    position: absolute;
     top: 18%; 
     left: 50%; /* posiciona o lado esquerdo do botão no centro horizontal da tela */
     transform: translate(-50%, -50%); /* centraliza o botão completamente */
@@ -155,7 +166,7 @@ body{
 
     #edi{
         position: absolute;
-        top: 16%; 
+        top: 18%; 
         left: 50%; /* posiciona o lado esquerdo do botão no centro horizontal da tela */
         transform: translate(-50%, -50%); /* centraliza o botão completamente */
         margin: 0; /* remove as margens padrão do botão */
@@ -165,6 +176,17 @@ body{
     
     }
     
+    #info{
+        position: absolute;
+        top: 15%; 
+        left: 50%; /* posiciona o lado esquerdo do botão no centro horizontal da tela */
+        transform: translate(-50%, -50%); /* centraliza o botão completamente */
+        margin: 0; /* remove as margens padrão do botão */
+        color: white;
+        font-size: 13px;
+        text-align: center;
+    
+    }
     .desenvolvidoPor{
         position: absolute;
         top: 107%; 
