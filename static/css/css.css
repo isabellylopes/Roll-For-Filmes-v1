@@ -70,15 +70,6 @@ body{
 
 }
 
-.desenvolvidoPor{
-    position: absolute;
-    top: 97%; 
-    left: 10%; 
-    transform: translate(-20%, -20%); 
-    margin: 0; 
-    color: #fff;
-    font-size: 12px;
-}
 
 #login{
     position: absolute;
