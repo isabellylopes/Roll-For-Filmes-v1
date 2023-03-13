@@ -112,7 +112,21 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+.rodape {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
 
+  }
+
+  #desenvolvidoPor{
+    color: #fff;
+  }
 }
 
 @media (max-width: 600px) {
@@ -187,13 +201,15 @@ body{
         text-align: center;
     
     }
-    .desenvolvidoPor{
-        position: absolute;
-        top: 107%; 
-        left: 10%; 
-        transform: translate(-20%, -20%); 
-        margin: 0; 
+    .rodape {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        text-align: center;
+        padding: 5px;
         color: #fff;
-        font-size: 12px;
-    }
+    
+      }
   }
